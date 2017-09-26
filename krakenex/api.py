@@ -15,7 +15,8 @@
 # <http://www.gnu.org/licenses/gpl-3.0.txt>.
 
 
-import json
+# speedup json with ujson (http://blog.dataweave.in/post/87589606893/json-vs-simplejson-vs-ultrajson)
+import ujson as json
 import urllib
 
 # private query nonce
